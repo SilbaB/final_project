@@ -9,6 +9,8 @@ import joblib
 model = joblib.load("best_model.pkl")
 
 st.title("Heart Disease Prediction App")
+st.title("The model")
+
 st.write("Age ofnthe patient in years")
 st.write("sex: Sex of the patient,0:Female,1:Male")
 st.write("cp,Chest pain type. 0:Typical angina (chest pain related to decreased blood supply to the heart),1:Atypical angina (chest pain not related to heart),2:Non-anginal pain (pain not related to the heart),3: Asymptomatic (no chest pain)")
